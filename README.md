@@ -1,4 +1,4 @@
-<h1 style="text-align:center">symlar<br></h1>
+<h1 style="text-align:center; align:center;">symlar</h1>
 
 <p align="center">
   <a href="https://travis-ci.org/JoseLlarena/symlarjs"><img alt="Travis Status" src="https://travis-ci.org/JoseLlarena/symlarjs.svg?branch=master"></a>
@@ -10,7 +10,7 @@
 Calculate and verify similarity between strings
 
 
-Verification is 1-2 orders of magnitude faster than other libraries ([leven](https://github.com/sindresorhus/leven), [talisman](https://github.com/Yomguithereal/talisman),[fast-levenshtein](https://github.com/hiddentao/fast-levenshtein), [levenshtein-edit-distance](https://github.com/wooorm/levenshtein-edit-distance)):
+Verification is 1-2 orders of magnitude faster than other libraries ([leven](https://github.com/sindresorhus/leven), [talisman](https://github.com/Yomguithereal/talisman), [fast-levenshtein](https://github.com/hiddentao/fast-levenshtein), [levenshtein-edit-distance](https://github.com/wooorm/levenshtein-edit-distance)):
 ```shell
 $ node benchmarks.js
 
@@ -31,7 +31,7 @@ $ node benchmarks.js
 
 
 
-[Full API documentation](https://josellarena.github.io/symlarjs/module-symlar.html)
+[Full API documentation](https://josellarena.https://josellarena.github.io/symlarjs/global.html)
 
 
 ## Install
@@ -144,8 +144,7 @@ __Browser__
 `symlar` will be available as a global
 
 
-[Full API documentation](https://josellarena.github.io/symlarjs/module-goodturing.html)
-
+[Full API documentation](https://josellarena.https://josellarena.github.io/symlarjs/global.html)
 
 ## npm tasks
 
@@ -153,7 +152,7 @@ test
 ```shell
 npm test
 ```
-_Tests are  slow due there being thousands of them, as the functions are tested generatively_
+_Tests are slow due to there being thousands of them, as the functions are tested generatively_
 
 coverage
 ```shell
