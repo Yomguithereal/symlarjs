@@ -1,4 +1,9 @@
-<div style="text-align:center; align:center;font-size:33px;">symlar</div><br/>
+<h1 style="text-align:center; align:center;">symlar</h1><br/>
+
+
+<p align="center">
+  Calculate and verify similarity between strings
+</p>
 
 <p align="center">
   <a href="https://travis-ci.org/JoseLlarena/symlarjs"><img alt="Travis Status" src="https://travis-ci.org/JoseLlarena/symlarjs.svg?branch=master"></a>
@@ -6,8 +11,8 @@
 <a href="https://codecov.io/gh/JoseLlarena/symlarjs">
   <img src="https://codecov.io/gh/JoseLlarena/symlarjs/branch/master/graph/badge.svg" alt="Codecov" />
 </a>
-<br/><br/>
-Calculate and verify similarity between strings
+
+
 
 
 Verification is 1-2 orders of magnitude faster than other libraries ([leven](https://github.com/sindresorhus/leven), [talisman](https://github.com/Yomguithereal/talisman), [fast-levenshtein](https://github.com/hiddentao/fast-levenshtein), [levenshtein-edit-distance](https://github.com/wooorm/levenshtein-edit-distance)):
