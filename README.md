@@ -1,12 +1,8 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100"  style="display: block; margin: auto;">
-  <text x="150" y="50"  text-anchor="middle" alignment-baseline="central" font-size="35">
-    symlar
-  </text>
-</svg>
-<p align="center">Calculate and verify similarity between strings</p>
+<h1>symlar</h1><br/>
+<p >Calculate and verify similarity between strings</p><br/>
 
-<p align="center">
+<p>
 <a href="https://www.npmjs.com/package/symlar">
 <img alt="symlar npm" src="https://img.shields.io/npm/v/npm.svg">
 </a>
@@ -18,7 +14,7 @@
 <a href="https://codecov.io/gh/JoseLlarena/symlarjs">
   <img src="https://codecov.io/gh/JoseLlarena/symlarjs/branch/master/graph/badge.svg" alt="Codecov" />
 </a>
-<p>
+<p><br/>
 
 
 
