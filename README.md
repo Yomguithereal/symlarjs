@@ -22,16 +22,17 @@ Verification is 1-2 orders of magnitude faster than other libraries ([leven](htt
 ```shell
 $ node benchmarks.js
 
- STANDARD VS VERIFICATION EDIT DISTANCE:
+ COMPUTATION VS VERIFICATION OF LEVENSHTEIN DISTANCE:
 
-        symlar/lev                x 41.84 ops/sec ±2.88% (55 runs sampled)
-        symlar/vlev               x 1,087 ops/sec ±0.90% (89 runs sampled)
-        symlar/eddist             x 35.25 ops/sec ±0.57% (60 runs sampled)
-        symlar/veddist            x 930 ops/sec ±0.99% (90 runs sampled)
-        leven                     x 67.11 ops/sec ±0.74% (68 runs sampled)
-        talisman                  x 72.37 ops/sec ±0.69% (73 runs sampled)
-        fast-levenshtein          x 53.02 ops/sec ±0.69% (67 runs sampled)
-        levenshtein-edit-distance x 48.50 ops/sec ±4.07% (62 runs sampled)
+        symlar/lev                x 41.88 ops/sec ±5.40% (54 runs sampled)
+        symlar/vlev               x 1,135 ops/sec ±1.26% (90 runs sampled)
+        symlar/eddist             x 36.43 ops/sec ±1.02% (62 runs sampled)
+        symlar/veddist            x 972 ops/sec ±1.46% (89 runs sampled)
+        leven                     x 65.14 ops/sec ±0.70% (66 runs sampled)
+        talisman                  x 81.01 ops/sec ±0.71% (69 runs sampled)
+        fast-levenshtein          x 57.93 ops/sec ±1.07% (66 runs sampled)
+        js-levenshtein            x 96.58 ops/sec ±1.40% (69 runs sampled)
+        levenshtein-edit-distance x 62.36 ops/sec ±1.18% (64 runs sampled)
 
         fastest is symlar/vlev
 ```
