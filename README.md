@@ -1,4 +1,4 @@
-<h1 style="text-align:center; align:center;">symlar</h1>
+<div style="text-align:center; align:center;font-size:33px;">symlar</div><br/>
 
 <p align="center">
   <a href="https://travis-ci.org/JoseLlarena/symlarjs"><img alt="Travis Status" src="https://travis-ci.org/JoseLlarena/symlarjs.svg?branch=master"></a>
@@ -31,7 +31,8 @@ $ node benchmarks.js
 
 
 
-[Full API documentation](https://josellarena.https://josellarena.github.io/symlarjs/global.html)
+
+[Full API documentation](https://josellarena.github.io/symlarjs/global.html)
 
 
 ## Install
@@ -144,7 +145,7 @@ __Browser__
 `symlar` will be available as a global
 
 
-[Full API documentation](https://josellarena.https://josellarena.github.io/symlarjs/global.html)
+[Full API documentation](https://josellarena.github.io/symlarjs/global.html)
 
 ## npm tasks
 
