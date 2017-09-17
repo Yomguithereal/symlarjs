@@ -5,7 +5,8 @@ const { gen, sample, sampleOne } = require('testcheck'),
     leven = require('leven'),
     talisman = require('talisman/metrics/distance/levenshtein'),
     fast_levenshtein = require('fast-levenshtein').get,
-    levenshtein_edit_distance = require('levenshtein-edit-distance');
+    levenshtein_edit_distance = require('levenshtein-edit-distance'),
+    js_levenshtein = require('js-levenshtein');
 
 const { log } = console, { max, floor, sqrt } = Math;
 
@@ -15,7 +16,7 @@ const
     rights = non_empty_strings(1, 50, N),
     max_dists = small_max_distances(lefts, rights);
 
-log('\n', 'STANDARD VS VERIFICATION EDIT DISTANCE:\n');
+log('\n', 'COMPUTATION VS VERIFICATION OF LEVENSHTEIN DISTANCE:\n');
 
 new Benchmark.Suite('',
     {
@@ -28,7 +29,8 @@ new Benchmark.Suite('',
     .add('leven                    ', harness((L, R, max_d) => leven(L, R) <= max_d))
     .add('talisman                 ', harness((L, R, max_d) => talisman(L, R) <= max_d))
     .add('fast-levenshtein         ', harness((L, R, max_d) => fast_levenshtein(L, R) <= max_d))
-    .add('levenshtein-edit-distance', harness((L, R, max_d) => fast_levenshtein(L, R) <= max_d))
+    .add('js-levenshtein           ', harness((L, R, max_d) => js_levenshtein(L, R) <= max_d))
+    .add('levenshtein-edit-distance', harness((L, R, max_d) => levenshtein_edit_distance(L, R) <= max_d))
     .on('cycle', event => log(`\t${event.target}`))
     .on('complete', function()
     {

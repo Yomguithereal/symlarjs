@@ -38,6 +38,7 @@
     "gulp-util": "^3.0.8",
     "isparta": "^4.0.0",
     "istanbul": "^0.4.4",
+    "js-levenshtein": "^1.1.2",
     "leven": "^2.1.0",
     "levenshtein-edit-distance": "^2.0.1",
     "minami": "^1.2.3",
