@@ -1,6 +1,6 @@
 {
   "name": "symlar",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "compute and verify string similarity",
   "main": "symlar.js",
   "scripts": {
