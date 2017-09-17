@@ -5,7 +5,7 @@
 Calculate and verify similarity between strings
 
 
-Verification is 1-2 orders or magnitude faster than other libraries ([leven](https://github.com/sindresorhus/leven), [talisman](https://github.com/Yomguithereal/talisman),[fast-levenshtein](https://github.com/hiddentao/fast-levenshtein), [levenshtein-edit-distance](https://github.com/wooorm/levenshtein-edit-distance)):
+Verification is 1-2 orders of magnitude faster than other libraries ([leven](https://github.com/sindresorhus/leven), [talisman](https://github.com/Yomguithereal/talisman),[fast-levenshtein](https://github.com/hiddentao/fast-levenshtein), [levenshtein-edit-distance](https://github.com/wooorm/levenshtein-edit-distance)):
 ```shell
 $ node benchmarks.js
 
@@ -37,7 +37,7 @@ npm i symlar
 
 ## Usage
 
-####Node
+__Node__
 
 ```shell
 $ node
@@ -131,7 +131,7 @@ verify weighted edit distance
 false
 ```
 
-####Browser
+__Browser__
 
 ```html
 <script src='symlar.js'></script>
