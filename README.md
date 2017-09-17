@@ -1,7 +1,12 @@
 <h1 style="text-align:center">symlar<br></h1>
-[![Build Status](https://travis-ci.org/josellarena/symlar.svg?branch=master)](https://travis-ci.org/josellarena/symlar) [![Coverage Status](img.shields.io/codecov/c/github/babel/babel/master.svg](https://codecov.io/github/josellarena/symlar)]
-<br/><br/>
 
+<p align="center">
+  <a href="https://travis-ci.org/JoseLlarena/symlarjs"><img alt="Travis Status" src="https://travis-ci.org/JoseLlarena/symlarjs.svg?branch=master"></a>
+
+<a href="https://codecov.io/gh/JoseLlarena/symlarjs">
+  <img src="https://codecov.io/gh/JoseLlarena/symlarjs/branch/master/graph/badge.svg" alt="Codecov" />
+</a>
+<br/><br/>
 Calculate and verify similarity between strings
 
 
