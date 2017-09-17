@@ -1,17 +1,21 @@
 <h1 style="text-align:center; align:center;">symlar</h1><br/>
 
 
-<p align="center">
-  Calculate and verify similarity between strings
-</p>
+<p align="center">Calculate and verify similarity between strings</p>
 
 <p align="center">
-  <a href="https://travis-ci.org/JoseLlarena/symlarjs"><img alt="Travis Status" src="https://travis-ci.org/JoseLlarena/symlarjs.svg?branch=master"></a>
+<a href="https://www.npmjs.com/package/symlar">
+<img alt="symlar npm" src="https://img.shields.io/npm/v/npm.svg">
+</a>
+
+<a href="https://travis-ci.org/JoseLlarena/symlarjs">
+<img alt="Travis Status" src="https://travis-ci.org/JoseLlarena/symlarjs.svg?branch=master">
+</a>
 
 <a href="https://codecov.io/gh/JoseLlarena/symlarjs">
   <img src="https://codecov.io/gh/JoseLlarena/symlarjs/branch/master/graph/badge.svg" alt="Codecov" />
 </a>
-
+<p>
 
 
 
