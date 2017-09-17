@@ -1,6 +1,9 @@
-<h1 style="text-align:center; align:center;">symlar</h1><br/>
 
-
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100"  style="display: block; margin: auto;">
+  <text x="150" y="50"  text-anchor="middle" alignment-baseline="central" font-size="35">
+    symlar
+  </text>
+</svg>
 <p align="center">Calculate and verify similarity between strings</p>
 
 <p align="center">
