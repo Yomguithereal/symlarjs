@@ -7,6 +7,6 @@ before_install:
 cache:
   directories:
     - "node_modules"
-  notifications:
+notifications:
   email:
     on_success: never
