@@ -2,6 +2,7 @@
   "name": "symlar",
   "version": "1.1.1",
   "description": "compute and verify string similarity",
+  "repository": "https://github.com/JoseLlarena/symlarjs.git",
   "main": "symlar.js",
   "scripts": {
     "test": "mocha --ui=bdd --timeout=60000 --require mocha-clean",
