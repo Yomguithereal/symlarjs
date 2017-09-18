@@ -78,7 +78,7 @@ $ node
 levenshtein distance
 
 ```js
-> sym.lev('SIMILARITY', 'SIMILAR')
+> symlar.lev('SIMILARITY', 'SIMILAR')
 
 3
 ```
@@ -86,7 +86,7 @@ levenshtein distance
 verify levenshtein distance
 
 ```js
-> sym.vlev('SIMILARITY', 'SIMILAR', 3)
+> symlar.vlev('SIMILARITY', 'SIMILAR', 3)
 
 true
 ```
@@ -110,14 +110,14 @@ true
 phonetic similarity
 
 ```js
-> sym.phonesim('SOW', 'SEW')
+> symlar.phonesim('SOW', 'SEW')
 
 1
 ```
 
 verify phonetic similarity
 ```js
-> sym.vphonesim('SOW', 'SEW', .9)
+> symlar.vphonesim('SOW', 'SEW', .9)
 
 true
 ```
@@ -133,7 +133,7 @@ custom edit similarity
 custom weighted edit distance
 
 ```js
-> sym.eddist('SIMILARITY', 'SIMILAR',(L, R) => +(L !== R)*.5)
+> symlar.eddist('SIMILARITY', 'SIMILAR',(L, R) => +(L !== R)*.5)
 
 1.5
 ```
@@ -141,7 +141,7 @@ custom weighted edit distance
 verify weighted edit distance
 
 ```js
-> sym.veddist('SIMILARITY', 'SIMILAR',(L, R) => +(L !== R)*.5, 1)
+> symlar.veddist('SIMILARITY', 'SIMILAR',(L, R) => +(L !== R)*.5, 1)
 
 false
 ```
