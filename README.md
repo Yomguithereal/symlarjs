@@ -4,7 +4,7 @@
 
 <p>
 <a href="https://www.npmjs.com/package/symlar">
-<img alt="symlar npm" src="https://img.shields.io/npm/v/npm.svg">
+<img alt="symlar npm" src="https://img.shields.io/npm/v/symlar.svg?style=flat">
 </a>
 
 <a href="https://travis-ci.org/JoseLlarena/symlarjs">
